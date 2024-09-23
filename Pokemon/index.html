@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Pokémon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .pokemon-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 150px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .pokemon-card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buscador de Pokémon</h1>
+    <input type="text" id="pokemon-input" placeholder="Nombre o ID del Pokémon">
+    <button id="search-btn">Buscar</button>
+    <div id="pokemon-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
